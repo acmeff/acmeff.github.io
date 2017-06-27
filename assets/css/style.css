@@ -91,20 +91,27 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-around;
   padding-top: 50px;
   flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
 
 .flex-row-extend{
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .about-img-container{
-  width: 40%;
+  flex: 2;
 }
 .about img{
   width: 100%;
   height: auto;
+}
+
+.paragraph-container{
+  flex: 3;
 }
 .navbar-brand {
 	font-weight: 700;
@@ -179,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 20px;
 	padding-bottom: 50px;
 	background-color: #f2f2f2;
-  margin-bottom: 50px;
 }
 
 #social i {
@@ -263,7 +269,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+	margin-top: 50px;
+  /*margin-left: 50px;*/
 }
 
 .gallery img:hover {
