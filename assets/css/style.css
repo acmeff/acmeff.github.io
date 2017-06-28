@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 #social {
 	padding-top: 20px;
 	padding-bottom: 50px;
-	background-color: #f2f2f2;
+	background-color: #428bca;
 }
 
 #social i {
@@ -241,6 +241,14 @@ h1, h2, h3, h4, h5, h6 {
 #workwrap h4 {
 	font-weight: 400;
 	color: #ffffff
+}
+
+#works{
+  background-color: #f2f2f2;
+}
+
+#social h2{
+  color: white;
 }
 
 #aboutwrap {
